@@ -1,0 +1,33 @@
+.wrapper{
+  width: 90%;
+  margin: auto;
+  @media only screen and (min-width: $break-large){
+    width: 90%;
+    margin: auto;
+  }
+}
+.intro{
+  padding: 0 1em;
+  @media only screen and (min-width: $break-large){
+    padding-top: 3em;
+    overflow: auto;
+    clear: both;
+  }
+  @media only screen and (min-width: $break-small){
+    margin-top: 3em;
+  }
+  img{
+    @media only screen and (min-width: $break-small){
+      width: 40%;
+      float: right;
+      margin-left: 5%;
+    }
+  }
+  p{
+    @media only screen and (min-width: $break-small){
+      text-align: left;
+      line-height: 1.5em;
+      @include style;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+#footer{
+  width: 100%;
+  @extend %centered;
+  padding: 1em 1em;
+  overflow: auto;
+  clear: both;
+  p{
+    @media only screen and (min-width: $break-small){
+      width: 70%;
+      margin: auto;
+    }
+    @include style;
+  }
+}
+.list{
+  visibility: hidden;
+  @media only screen and (min-width: $break-small){
+    visibility: visible;
+    float: right;
+    margin-right: 1em;
+  }
+}

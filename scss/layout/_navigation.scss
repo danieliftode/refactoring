@@ -1,0 +1,7 @@
+.nav{
+  margin-left: 2%;
+  margin-right: 2%;
+  @media only screen and (min-width: $break-large){
+    float: right;
+  }
+}
