@@ -1,2 +1,152 @@
-*{text-decoration:none;list-style:none;box-sizing:border-box}@media only screen and (min-width: 768px){li{padding:5px 5px;display:inline-block}}body{line-height:1.6em;font-family:'Roboto Slab', serif}img{width:100%}#logo{font-family:'Roboto Slab', serif;font-size:1.5em;color:#2a323f;padding-left:2em}@media only screen and (min-width: 1024px){#logo{float:left;margin-top:1.5em}}#portfolio{text-align:center}#footer a{margin-top:2.5em}.ankor{float:right}@media only screen and (min-width: 768px){.ankor{display:none}}.me{float:left;margin-top:1.4em;overflow:auto;clear:both}@media only screen and (min-width: 768px){.me{margin-left:1em}}.nav a{padding:1em 1em;background-color:white;display:inline-block;width:100%;margin-bottom:5px;font-size:1.5em}@media only screen and (min-width: 768px){.nav a{padding:1em 1em;display:inline-block}}.nav a:link{border:2px solid #2a323f;border-radius:5px}.nav a:visited{color:#2a323f}.nav a:hover{background-color:#2a323f;color:white}.section{margin-bottom:2em}@media only screen and (min-width: 1024px){.section{width:29%;float:left;margin-right:1.7%;margin-left:1.7%}}@media only screen and (min-width: 768px){.section{width:30%;float:left;margin:1em 1em}}.wrapper{width:90%;margin:auto}@media only screen and (min-width: 1024px){.wrapper{width:90%;margin:auto}}.intro{padding:0 1em}@media only screen and (min-width: 1024px){.intro{padding-top:3em;overflow:auto;clear:both}}@media only screen and (min-width: 768px){.intro{margin-top:3em}}@media only screen and (min-width: 768px){.intro img{width:40%;float:right;margin-left:5%}}@media only screen and (min-width: 768px){.intro p{text-align:left;line-height:1.5em;font-family:'Roboto Slab', serif;font-size:1.5em;color:#2a323f}}#footer{width:100%;padding:1em 1em;overflow:auto;clear:both}#footer p{font-family:'Roboto Slab', serif;font-size:1.5em;color:#2a323f}@media only screen and (min-width: 768px){#footer p{width:70%;margin:auto}}.list{visibility:hidden}@media only screen and (min-width: 768px){.list{visibility:visible;float:right;margin-right:1em}}header{padding:1em 0}.nav{margin-left:2%;margin-right:2%}@media only screen and (min-width: 1024px){.nav{float:right}}.section,#footer,header{text-align:center}#portfolio,.me{padding-bottom:1em}
+.section, #footer, header {
+  text-align: center; }
+
+#portfolio, .me {
+  padding-bottom: 1em; }
+
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  line-height: 1.6em;
+  font-family: 'Roboto Slab', serif; }
+
+img {
+  width: 100%; }
+
+#logo {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5em;
+  color: #2a323f;
+  padding-left: 2em; }
+  @media only screen and (min-width: 1024px) {
+    #logo {
+      float: left;
+      margin-top: 1.5em; } }
+
+#portfolio {
+  text-align: center; }
+
+#footer a {
+  margin-top: 2.5em; }
+
+@media only screen and (min-width: 768px) {
+  li {
+    padding: 5px 5px;
+    display: inline-block; } }
+
+.ankor {
+  float: right; }
+  @media only screen and (min-width: 768px) {
+    .ankor {
+      display: none; } }
+
+.me {
+  float: left;
+  margin-top: 1.4em;
+  overflow: auto;
+  clear: both; }
+  @media only screen and (min-width: 768px) {
+    .me {
+      margin-left: 1em; } }
+
+.nav a {
+  padding: 1em 1em;
+  background-color: #c3c6cc;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 1.5em; }
+  @media only screen and (min-width: 768px) {
+    .nav a {
+      padding: 1em 1em;
+      display: inline-block; } }
+.nav a:link {
+  border: 2px solid #2a323f;
+  border-radius: 5px; }
+.nav a:visited {
+  color: #2a323f; }
+.nav a:hover {
+  background-color: #2a323f;
+  color: #c3c6cc; }
+
+.section {
+  margin-bottom: 2em; }
+  @media only screen and (min-width: 1024px) {
+    .section {
+      width: 29%;
+      float: left;
+      margin-right: 1.7%;
+      margin-left: 1.7%; } }
+  @media only screen and (min-width: 768px) {
+    .section {
+      width: 45%;
+      float: left;
+      margin: 1em; } }
+
+.wrapper {
+  width: 90%;
+  margin: auto; }
+  @media only screen and (min-width: 1024px) {
+    .wrapper {
+      width: 90%;
+      margin: auto; } }
+
+.intro {
+  padding: 0 1em; }
+  @media only screen and (min-width: 1024px) {
+    .intro {
+      padding-top: 3em;
+      overflow: auto;
+      clear: both; } }
+  @media only screen and (min-width: 768px) {
+    .intro {
+      margin-top: 3em; } }
+  @media only screen and (min-width: 768px) {
+    .intro img {
+      width: 40%;
+      float: right;
+      margin-left: 5%; } }
+  @media only screen and (min-width: 768px) {
+    .intro p {
+      text-align: left;
+      line-height: 1.5em;
+      font-family: 'Roboto Slab', serif;
+      font-size: 1.5em;
+      color: #2a323f; } }
+
+#footer {
+  width: 100%;
+  padding: 1em 1em;
+  overflow: auto;
+  clear: both; }
+  #footer p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    color: #2a323f; }
+    @media only screen and (min-width: 768px) {
+      #footer p {
+        width: 70%;
+        margin: auto; } }
+
+.list {
+  visibility: hidden; }
+  @media only screen and (min-width: 768px) {
+    .list {
+      visibility: visible;
+      float: right;
+      margin-right: 1em; } }
+
+header {
+  padding: 1em 0; }
+
+.nav {
+  margin-left: 2%;
+  margin-right: 2%; }
+  @media only screen and (min-width: 1024px) {
+    .nav {
+      float: right; } }
+
 /*# sourceMappingURL=application.css.map */
